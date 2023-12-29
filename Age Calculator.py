@@ -62,6 +62,7 @@ left_years = total_years - leap_years
 total_days_in_normal_years = left_years * 365
 total_days_of_previous_years = total_days_in_leap_years + total_days_in_normal_years
 total_days_since_birth = total_days_of_previous_years + total_days
+print(f"Your age is {total_years}")
 print(f"It has been {total_days_since_birth} days since your birth.")
 total_weeks = total_days//7
 total_hours = total_days*24
